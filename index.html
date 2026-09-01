@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noreen | Portfolio</title>
+    <!-- Tailwind CSS -->
+  <link href="./src/style.css"rel="stylesheet">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-[#0B0B0F] text-white">
+
+<nav class="fixed top-0 left-0 w-full z-50 
+            bg-[#0B0B0F]/80 backdrop-blur-xl 
+            border-b border-white/10">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-4 
+                flex items-center justify-between">
+
+        <!-- Logo -->
+        <a href="#home"
+           class="text-2xl font-bold tracking-wider
+                  hover:scale-105 transition duration-300">
+
+            <span class="text-white">NO</span><span class="text-purple-500">REEN</span>
+
+        </a>
+
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center gap-8">
+
+            <!-- Home -->
+            <a href="#home"
+               class="relative text-gray-300 font-medium
+                      hover:text-purple-400
+                      transition duration-300
+                      after:absolute after:left-0 after:-bottom-2
+                      after:w-0 after:h-[2px]
+                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      hover:after:w-full
+                      after:transition-all after:duration-300">
+                Home
+            </a>
+
+
+            <!-- About -->
+            <a href="#about"
+               class="relative text-gray-300 font-medium
+                      hover:text-purple-400
+                      transition duration-300
+                      after:absolute after:left-0 after:-bottom-2
+                      after:w-0 after:h-[2px]
+                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      hover:after:w-full
+                      after:transition-all after:duration-300">
+                About
+            </a>
+
+
+            <!-- Skills -->
+            <a href="#skills"
+               class="relative text-gray-300 font-medium
+                      hover:text-purple-400
+                      transition duration-300
+                      after:absolute after:left-0 after:-bottom-2
+                      after:w-0 after:h-[2px]
+                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      hover:after:w-full
+                      after:transition-all after:duration-300">
+                Skills
+            </a>
+
+
+            <!-- Projects -->
+            <a href="#projects"
+               class="relative text-gray-300 font-medium
+                      hover:text-purple-400
+                      transition duration-300
+                      after:absolute after:left-0 after:-bottom-2
+                      after:w-0 after:h-[2px]
+                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      hover:after:w-full
+                      after:transition-all after:duration-300">
+                Projects
+            </a>
+
+
+            <!-- Contact -->
+            <a href="#contact"
+               class="relative text-gray-300 font-medium
+                      hover:text-purple-400
+                      transition duration-300
+                      after:absolute after:left-0 after:-bottom-2
+                      after:w-0 after:h-[2px]
+                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      hover:after:w-full
+                      after:transition-all after:duration-300">
+                Contact
+            </a>
+
+
+            <!-- Hire Me Button -->
+            <a href="#contact"
+               class="ml-3 px-6 py-3 rounded-full
+                      bg-gradient-to-r from-purple-600 to-cyan-500
+                      text-white font-semibold
+                      shadow-lg shadow-purple-500/20
+                      hover:shadow-purple-500/50
+                      hover:scale-105
+                      active:scale-95
+                      transition-all duration-300">
+                Hire Me
+            </a>
+
+        </div>
+        <!-- Mobile Menu Button -->
+        <button
+            class="md:hidden text-2xl text-gray-300
+                   hover:text-purple-400
+                   transition duration-300">
+
+            ☰
+
+        </button>
+
+    </div>
+</nav>
+<!-- Hero section -->
+<section id="home"
+    class="min-h-screen bg-[#0B0B0F] flex items-center
+           pt-28 px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto w-full
+                grid grid-cols-1 md:grid-cols-2
+                gap-12 items-center">
+
+        <!-- LEFT SIDE -->
+        <div>
+            <!-- Small Badge -->
+            <div
+                class="inline-flex items-center gap-2
+                       px-4 py-2 mb-6
+                       rounded-full
+                       border border-purple-500/30
+                       bg-purple-500/10
+                       text-purple-300 text-sm">
+
+                <span class="w-2 h-2 bg-purple-500 rounded-full"></span>
+                Available for Projects
+        </div>
+            <!-- Heading -->
+            <h1
+                class="text-5xl md:text-6xl lg:text-7xl
+                       font-bold leading-tight">
+                Hi, I'm
+                <span
+                    class="bg-gradient-to-r
+                           from-purple-500 to-cyan-400
+                           bg-clip-text text-transparent">
+                    Noreen
+                </span>
+                <br>
+                <span class="text-white">
+                    Web Developer
+                </span>
+            </h1>
+            <!-- Description -->
+            <p
+                class="mt-6 max-w-xl
+                       text-gray-400
+                       text-lg leading-relaxed">
+                I create modern, responsive and user-friendly
+                websites using HTML, CSS, JavaScript,
+                Tailwind CSS and React.
+
+            </p>
+            <!-- Buttons -->
+            <div class="flex flex-wrap gap-4 mt-8">
+                <!-- Projects Button -->
+                <a href="#projects"
+                   class="px-7 py-3 rounded-full
+                          bg-gradient-to-r
+                          from-purple-600 to-cyan-500
+                          font-semibold
+                          shadow-lg shadow-purple-500/20
+                          hover:scale-105
+                          hover:shadow-purple-500/40
+                          transition-all duration-300">
+                    View Projects 
+                </a>
+                <!-- Contact Button -->
+                <a href="#contact"
+                   class="px-7 py-3 rounded-full
+                          border border-white/20
+                          text-gray-300
+                          hover:border-purple-500
+                          hover:text-purple-400
+                          hover:bg-purple-500/10
+                          transition-all duration-300">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="flex justify-center md:justify-end">
+
+            <div
+                class="relative w-72 h-72 md:w-96 md:h-96
+                       rounded-full
+                       bg-gradient-to-r
+                       from-purple-600/20
+                       to-cyan-500/20
+                       flex items-center justify-center
+                       border border-purple-500/20
+                       shadow-2xl shadow-purple-500/10">
+                <!-- Glow -->
+                <div
+                    class="absolute inset-5
+                           rounded-full
+                           bg-gradient-to-r
+                           from-purple-600
+                           to-cyan-500
+                           blur-3xl opacity-20">
+                </div>
+                <!-- Profile Image -->
+                <div
+                    class="relative w-64 h-64 md:w-80 md:h-80
+                           rounded-full overflow-hidden
+                           border-4 border-white/10">
+                    <img
+                        src="./public/noreen.jpeg"
+                        alt="Noreen Profile"
+                        class="w-full h-full object-cover">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About ME -->
+<section id="about" class="py-24 px-6 lg:px-8 bg-[#0F0F14]">
+
+    <div class="max-w-7xl mx-auto">
+
+        <!-- Section Heading -->
+        <div class="text-center mb-14">
+
+            <p class="text-purple-400 font-medium mb-3">
+                GET TO KNOW ME
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold">
+                About <span class="text-purple-500">Me</span>
+            </h2>
+
+            <div class="w-20 h-1 bg-gradient-to-r
+                        from-purple-500 to-cyan-400
+                        mx-auto mt-5 rounded-full">
+            </div>
+
+        </div>
+
+
+        <!-- About Content -->
+        <div class="grid grid-cols-1 md:grid-cols-2
+                    gap-12 items-center">
+
+            <!-- Left Side -->
+            <div>
+
+                <h3 class="text-2xl md:text-3xl font-semibold mb-5">
+                    I'm a passionate
+                    <span class="text-purple-400">
+                        Web Developer
+                    </span>
+                </h3>
+
+                <p class="text-gray-400 leading-8 mb-5">
+                    I'm a passionate web developer who enjoys
+                    creating modern, responsive and user-friendly
+                    websites. I love turning ideas into beautiful
+                    and functional web experiences.
+                </p>
+
+                <p class="text-gray-400 leading-8">
+                    I am continuously learning new technologies
+                    and improving my skills to build better
+                    digital experiences.
+                </p>
+
+            </div>
+
+
+            <!-- Right Side -->
+            <div class="grid grid-cols-2 gap-5">
+
+                <!-- Card 1 -->
+                <div
+                    class="p-6 rounded-2xl
+                           bg-white/5
+                           border border-white/10
+                           hover:border-purple-500/50
+                           hover:-translate-y-2
+                           transition-all duration-300">
+
+                    <h4 class="text-3xl font-bold text-purple-400">
+                        10+
+                    </h4>
+
+                    <p class="text-gray-400 mt-2">
+                        Projects
+                    </p>
+
+                </div>
+
+
+                <!-- Card 2 -->
+                <div
+                    class="p-6 rounded-2xl
+                           bg-white/5
+                           border border-white/10
+                           hover:border-cyan-400/50
+                           hover:-translate-y-2
+                           transition-all duration-300">
+
+                    <h4 class="text-3xl font-bold text-cyan-400">
+                        5+
+                    </h4>
+
+                    <p class="text-gray-400 mt-2">
+                        Technologies
+                    </p>
+
+                </div>
+
+
+                <!-- Card 3 -->
+                <div
+                    class="p-6 rounded-2xl
+                           bg-white/5
+                           border border-white/10
+                           hover:border-purple-500/50
+                           hover:-translate-y-2
+                           transition-all duration-300">
+
+                    <h4 class="text-3xl font-bold text-purple-400">
+                        100%
+                    </h4>
+
+                    <p class="text-gray-400 mt-2">
+                        Dedication
+                    </p>
+
+                </div>
+
+
+                <!-- Card 4 -->
+                <div
+                    class="p-6 rounded-2xl
+                           bg-white/5
+                           border border-white/10
+                           hover:border-cyan-400/50
+                           hover:-translate-y-2
+                           transition-all duration-300">
+
+                    <h4 class="text-3xl font-bold text-cyan-400">
+                        Always
+                    </h4>
+
+                    <p class="text-gray-400 mt-2">
+                        Learning
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- skills -->
+<section id="skills" class="py-24 px-6 bg-[#0F0F14]">
+
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Heading -->
+        <div class="text-center mb-14">
+
+            <p class="text-purple-400 text-sm tracking-widest">
+                MY SKILLS
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold mt-3">
+                What I <span class="text-cyan-400">Do</span>
+            </h2>
+
+            <p class="text-gray-400 mt-4 max-w-xl mx-auto">
+                Technologies and tools I use to create
+                modern and responsive websites.
+            </p>
+
+        </div>
+
+
+        <!-- Skills Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+
+
+            <!-- HTML -->
+            <div class="skill-card">
+                <i class="fa-brands fa-html5 text-orange-500 text-4xl"></i>
+                <h3 class="mt-4 font-semibold">HTML</h3>
+                <p class="text-gray-500 text-sm mt-1">90%</p>
+            </div>
+
+
+            <!-- CSS -->
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt text-blue-500 text-4xl"></i>
+                <h3 class="mt-4 font-semibold">CSS</h3>
+                <p class="text-gray-500 text-sm mt-1">85%</p>
+            </div>
+
+
+            <!-- JavaScript -->
+            <div class="skill-card">
+                <i class="fa-brands fa-js text-yellow-400 text-4xl"></i>
+                <h3 class="mt-4 font-semibold">JavaScript</h3>
+                <p class="text-gray-500 text-sm mt-1">80%</p>
+            </div>
+
+
+            <!-- Tailwind -->
+            <div class="skill-card">
+                <i class="fa-solid fa-wind text-cyan-400 text-4xl"></i>
+                <h3 class="mt-4 font-semibold">Tailwind</h3>
+                <p class="text-gray-500 text-sm mt-1">85%</p>
+            </div>
+
+
+            <!-- React -->
+            <div class="skill-card">
+                <i class="fa-brands fa-react text-cyan-300 text-4xl"></i>
+                <h3 class="mt-4 font-semibold">React</h3>
+                <p class="text-gray-500 text-sm mt-1">75%</p>
+            </div>
+
+
+            <!-- Git -->
+            <div class="skill-card">
+                <i class="fa-brands fa-github text-purple-400 text-4xl"></i>
+                <h3 class="mt-4 font-semibold">Git</h3>
+                <p class="text-gray-500 text-sm mt-1">80%</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- //projects  -->
+<!-- PROJECTS SECTION -->
+<section id="projects" class="py-24 px-6 bg-[#0B0B0F]">
+
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Heading -->
+        <div class="text-center mb-14">
+
+            <p class="text-purple-400 text-sm tracking-widest">
+                MY PROJECTS
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold mt-3">
+                Featured <span class="text-cyan-400">Work</span>
+            </h2>
+
+            <p class="text-gray-400 mt-4">
+                Some of my recent projects and creative work.
+            </p>
+
+        </div>
+
+
+        <!-- Projects -->
+        <div class="grid md:grid-cols-2 gap-8">
+
+
+            <!-- PROJECT 1 -->
+            <div class="group bg-white/5 border border-white/10
+                        rounded-3xl overflow-hidden
+                        hover:border-purple-500/50
+                        hover:-translate-y-2
+                        transition-all duration-500">
+
+                <!-- Image -->
+                <div class="relative overflow-hidden">
+
+                    <img src="./public/buffer.png"
+                         alt="Buffer Website"
+                         class="w-full h-64 object-cover
+                                group-hover:scale-105
+                                transition duration-500">
+
+                    <!-- Overlay -->
+                    <div class="absolute inset-0 bg-black/60
+                                opacity-0 group-hover:opacity-100
+                                flex items-center justify-center
+                                transition duration-500">
+
+                        <a href="#"
+                           class="w-12 h-12 rounded-full
+                                  bg-purple-600
+                                  flex items-center justify-center
+                                  hover:scale-110 transition">
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Content -->
+                <div class="p-6">
+
+                    <h3 class="text-2xl font-bold">
+                        Buffer Website
+                    </h3>
+
+                    <p class="text-gray-400 mt-2">
+                        A modern and responsive social media
+                        management website design.
+                    </p>
+
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mt-4">
+
+                        <span class="px-3 py-1 rounded-full
+                                     bg-purple-500/10
+                                     text-purple-400 text-sm">
+                            HTML
+                        </span>
+
+                        <span class="px-3 py-1 rounded-full
+                                     bg-cyan-500/10
+                                     text-cyan-400 text-sm">
+                            Tailwind
+                        </span>
+
+                    </div>
+                    <!-- Links -->
+                    <div class="flex gap-5 mt-6">
+
+                        <a href="https://vercel.com/noreen2"
+                           class="text-gray-300
+                                  hover:text-purple-400
+                                  transition">
+                            <i class="fa-solid fa-link mr-2"></i>
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/azmatnoreen87-cpu"
+                           class="text-gray-300
+                                  hover:text-cyan-400
+                                  transition">
+                            <i class="fa-brands fa-github mr-2"></i>
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+            <div class="group bg-white/5 border border-white/10
+                        rounded-3xl overflow-hidden
+                        hover:border-cyan-400/50
+                        hover:-translate-y-2
+                        transition-all duration-500">
+
+                <div class="relative overflow-hidden">
+
+                    <img src="./public/saphora.png"
+                         alt="Sephora Website"
+                         class="w-full h-64 object-cover
+                                group-hover:scale-105
+                                transition duration-500">
+                    <div class="absolute inset-0 bg-black/60
+                                opacity-0 group-hover:opacity-100
+                                flex items-center justify-center
+                                transition duration-500">
+
+                        <a href="#"
+                           class="w-12 h-12 rounded-full
+                                  bg-cyan-500
+                                  flex items-center justify-center
+                                  hover:scale-110 transition">
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="p-6">
+
+                    <h3 class="text-2xl font-bold">
+                        Sephora Website
+                    </h3>
+
+                    <p class="text-gray-400 mt-2">
+                        A clean and modern beauty shopping
+                        website interface.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mt-4">
+
+                        <span class="px-3 py-1 rounded-full
+                                     bg-purple-500/10
+                                     text-purple-400 text-sm">
+                            HTML
+                        </span>
+
+                        <span class="px-3 py-1 rounded-full
+                                     bg-cyan-500/10
+                                     text-cyan-400 text-sm">
+                            CSS
+                        </span>
+
+                    </div>
+
+                    <div class="flex gap-5 mt-6">
+
+                        <a href="https://vercel.com/noreen21"
+                           class="text-gray-300
+                                  hover:text-purple-400 transition">
+                            <i class="fa-solid fa-link mr-2"></i>
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/azmatnoreen87-cpu"
+                           class="text-gray-300
+                                  hover:text-cyan-400 transition">
+                            <i class="fa-brands fa-github mr-2"></i>
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+            <div class="group bg-white/5 border border-white/10
+                        rounded-3xl overflow-hidden
+                        hover:border-purple-500/50
+                        hover:-translate-y-2
+                        transition-all duration-500">
+
+                <div class="relative overflow-hidden">
+
+                    <img src="./public/card.png"
+                         alt="Shopping Website"
+                         class="w-full h-64 object-cover
+                                group-hover:scale-105
+                                transition duration-500">
+
+                    <div class="absolute inset-0 bg-black/60
+                                opacity-0 group-hover:opacity-100
+                                flex items-center justify-center
+                                transition duration-500">
+
+                        <a href="#"
+                           class="w-12 h-12 rounded-full
+                                  bg-purple-600
+                                  flex items-center justify-center
+                                  hover:scale-110 transition">
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="p-6">
+
+                    <h3 class="text-2xl font-bold">
+                        Shopping Website
+                    </h3>
+
+                    <p class="text-gray-400 mt-2">
+                        A responsive e-commerce website
+                        with a modern user interface.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mt-4">
+
+                        <span class="px-3 py-1 rounded-full
+                                     bg-purple-500/10
+                                     text-purple-400 text-sm">
+                            HTML
+                        </span>
+
+                        <span class="px-3 py-1 rounded-full
+                                     bg-cyan-500/10
+                                     text-cyan-400 text-sm">
+                            Tailwind
+                        </span>
+
+                    </div>
+
+                    <div class="flex gap-5 mt-6">
+
+                        <a href="https://vercel.com/noreen21"
+                           target="_blank"
+                           class="text-gray-300
+                                  hover:text-purple-400 transition">
+                            <i class="fa-solid fa-link mr-2"></i>
+                            Live Demo
+                        </a>
+
+                        <a href="#"
+                           class="text-gray-300
+                                  hover:text-cyan-400 transition">
+                            <i class="fa-brands fa-github mr-2"></i>
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 4 -->
+            <div class="group bg-white/5 border border-white/10
+                        rounded-3xl overflow-hidden
+                        hover:border-cyan-400/50
+                        hover:-translate-y-2
+                        transition-all duration-500">
+
+                <div class="relative overflow-hidden">
+
+                    <img src="./public/modern.png"
+                         alt="Project 4"
+                         class="w-full h-64 object-cover
+                                group-hover:scale-105
+                                transition duration-500">
+
+                    <div class="absolute inset-0 bg-black/60
+                                opacity-0 group-hover:opacity-100
+                                flex items-center justify-center
+                                transition duration-500">
+
+                        <a href="#"
+                           class="w-12 h-12 rounded-full
+                                  bg-cyan-500
+                                  flex items-center justify-center
+                                  hover:scale-110 transition">
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="p-6">
+
+                    <h3 class="text-2xl font-bold">
+                        Creative Project
+                    </h3>
+
+                    <p class="text-gray-400 mt-2">
+                        A creative web project built with
+                        modern web technologies.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mt-4">
+
+                        <span class="px-3 py-1 rounded-full
+                                     bg-purple-500/10
+                                     text-purple-400 text-sm">
+                            HTML
+                        </span>
+
+                        <span class="px-3 py-1 rounded-full
+                                     bg-cyan-500/10
+                                     text-cyan-400 text-sm">
+                            JavaScript
+                        </span>
+
+                    </div>
+
+                    <div class="flex gap-5 mt-6">
+
+                        <a href="https://vercel.com/noreen2"
+                           class="text-gray-300
+                                  hover:text-purple-400 transition">
+                            <i class="fa-solid fa-link mr-2"></i>
+                            Live Demo
+                        </a>
+
+                        <a href="https://github.com/azmatnoreen87-cpu"
+                           class="text-gray-300
+                                  hover:text-cyan-400 transition">
+                            <i class="fa-brands fa-github mr-2"></i>
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-24 px-6 bg-[#0F0F14]">
+
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Heading -->
+        <div class="text-center mb-14">
+
+            <p class="text-purple-400 text-sm tracking-widest">
+                GET IN TOUCH
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold mt-3">
+                Let's <span class="text-cyan-400">Connect</span>
+            </h2>
+
+            <p class="text-gray-400 mt-4">
+                Have a project in mind? I'd love to hear from you.
+            </p>
+
+        </div>
+
+
+        <!-- Contact Content -->
+        <div class="grid md:grid-cols-2 gap-10">
+
+
+            <!-- LEFT SIDE -->
+            <div>
+
+                <h3 class="text-2xl font-bold mb-4">
+                    Let's work together
+                </h3>
+
+                <p class="text-gray-400 leading-7 mb-8">
+                    I'm always open to discussing new projects,
+                    creative ideas or opportunities.
+                </p>
+
+
+                <!-- Email -->
+                <div class="flex items-center gap-4 p-5 mb-4
+                            rounded-2xl bg-white/5
+                            border border-white/10
+                            hover:border-purple-500/50
+                            hover:-translate-y-1
+                            transition duration-300">
+
+                    <div class="w-12 h-12 rounded-xl
+                                bg-purple-500/10
+                                flex items-center justify-center">
+
+                        <i class="fa-solid fa-envelope
+                                  text-purple-400 text-xl"></i>
+
+                    </div>
+
+                    <div>
+                        <p class="text-gray-500 text-sm">
+                            Email
+                        </p>
+
+                        <p class="text-gray-200">
+                            azmatnoreen87@gmail.com
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Location -->
+                <div class="flex items-center gap-4 p-5
+                            rounded-2xl bg-white/5
+                            border border-white/10
+                            hover:border-cyan-400/50
+                            hover:-translate-y-1
+                            transition duration-300">
+
+                    <div class="w-12 h-12 rounded-xl
+                                bg-cyan-500/10
+                                flex items-center justify-center">
+
+                        <i class="fa-solid fa-location-dot
+                                  text-cyan-400 text-xl"></i>
+
+                    </div>
+
+                    <div>
+                        <p class="text-gray-500 text-sm">
+                            Location
+                        </p>
+
+                        <p class="text-gray-200">
+                            Pakistan
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Social Icons -->
+                <div class="flex gap-4 mt-7">
+
+                    <a href="#"
+                       class="w-11 h-11 rounded-full
+                              bg-white/5
+                              border border-white/10
+                              flex items-center justify-center
+                              hover:bg-purple-600
+                              hover:-translate-y-1
+                              transition duration-300">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                    <a href="#"
+                       class="w-11 h-11 rounded-full
+                              bg-white/5
+                              border border-white/10
+                              flex items-center justify-center
+                              hover:bg-purple-600
+                              hover:-translate-y-1
+                              transition duration-300">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                    </a>
+
+                    <a href="#"
+                       class="w-11 h-11 rounded-full
+                              bg-white/5
+                              border border-white/10
+                              flex items-center justify-center
+                              hover:bg-cyan-500
+                              hover:-translate-y-1
+                              transition duration-300">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT FORM -->
+            <form class="bg-white/5 border border-white/10
+                         rounded-3xl p-7
+                         hover:border-purple-500/30
+                         transition duration-300">
+
+                <!-- Name -->
+                <label class="text-gray-300 text-sm">
+                    Your Name
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    class="w-full mt-2 mb-5 px-4 py-3
+                           rounded-xl
+                           bg-[#0B0B0F]
+                           border border-white/10
+                           text-white
+                           placeholder-gray-600
+                           outline-none
+                           focus:border-purple-500
+                           transition">
+
+
+                <!-- Email -->
+                <label class="text-gray-300 text-sm">
+                    Your Email
+                </label>
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="w-full mt-2 mb-5 px-4 py-3
+                           rounded-xl
+                           bg-[#0B0B0F]
+                           border border-white/10
+                           text-white
+                           placeholder-gray-600
+                           outline-none
+                           focus:border-purple-500
+                           transition">
+
+
+                <!-- Message -->
+                <label class="text-gray-300 text-sm">
+                    Your Message
+                </label>
+
+                <textarea
+                    rows="5"
+                    placeholder="Write your message..."
+                    class="w-full mt-2 mb-5 px-4 py-3
+                           rounded-xl
+                           bg-[#0B0B0F]
+                           border border-white/10
+                           text-white
+                           placeholder-gray-600
+                           outline-none
+                           focus:border-purple-500
+                           transition"></textarea>
+
+
+                <!-- Button -->
+                <button
+                    type="submit"
+                    class="w-full py-3 rounded-xl
+                           bg-gradient-to-r
+                           from-purple-600 to-cyan-500
+                           font-semibold
+                           hover:scale-[1.02]
+                           hover:shadow-lg
+                           hover:shadow-purple-500/20
+                           transition duration-300">
+
+                    Send Message
+                    <i class="fa-solid fa-paper-plane ml-2"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+ <!-- FOOTER -->
+<footer class="bg-[#0B0B0F] border-t border-white/10 px-6 py-10">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="flex flex-col md:flex-row
+                    items-center justify-between gap-6">
+
+            <!-- Logo / Name -->
+            <div class="text-center md:text-left">
+
+                <h2 class="text-2xl font-bold">
+                    <span class="text-white">NO</span><span class="text-purple-500">REEN</span>
+                </h2>
+
+                <p class="text-gray-500 text-sm mt-2">
+                    Web Developer & Creative Designer
+                </p>
+
+            </div>
+
+
+            <!-- Links -->
+            <div class="flex items-center gap-4">
+
+                <!-- GitHub -->
+                <a href="https://github.com/azmatnoreen87-cpu"
+                   target="_blank"
+                   class="flex items-center gap-2
+                          px-5 py-3 rounded-full
+                          border border-white/10
+                          bg-white/5
+                          text-gray-300
+                          hover:text-white
+                          hover:bg-purple-600
+                          hover:border-purple-500
+                          hover:-translate-y-1
+                          transition-all duration-300">
+
+                    <i class="fa-brands fa-github text-lg"></i>
+                    GitHub
+
+                </a>
+
+
+                <!-- Vercel -->
+                <a href="https://vercel.com/noreen21"
+                   target="_blank"
+                   class="flex items-center gap-2
+                          px-5 py-3 rounded-full
+                          border border-white/10
+                          bg-white/5
+                          text-gray-300
+                          hover:text-white
+                          hover:bg-cyan-500
+                          hover:border-cyan-400
+                          hover:-translate-y-1
+                          transition-all duration-300">
+                    <i class="fa-solid fa-globe text-lg"></i>
+                    Vercel
+                </a>
+            </div>
+        </div>
+        <!-- Bottom Line -->
+        <div class="border-t border-white/10 mt-8 pt-6
+                    text-center">
+
+            <p class="text-gray-500 text-sm">
+                © 2026 Noreen. All rights reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
+
