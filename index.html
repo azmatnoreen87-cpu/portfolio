@@ -9,13 +9,13 @@
   <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body class="bg-[#0B0B0F] text-white">
-
-<nav class="fixed top-0 left-0 w-full z-50 
-            bg-[#0B0B0F]/80 backdrop-blur-xl 
+<body class="bg-gradient-to-br from-[#08080C] via-[#171126] to-[#071A24] text-white">
+<!-- NAVBAR -->
+<nav class="fixed top-0 left-0 w-full z-50
+            backdrop-blur-xl
             border-b border-white/10">
 
-    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-4 
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-4
                 flex items-center justify-between">
 
         <!-- Logo -->
@@ -23,7 +23,8 @@
            class="text-2xl font-bold tracking-wider
                   hover:scale-105 transition duration-300">
 
-            <span class="text-white">NO</span><span class="text-purple-500">REEN</span>
+            <span class="text-white">NO</span>
+            <span class="text-purple-500">REEN</span>
 
         </a>
 
@@ -38,7 +39,8 @@
                       transition duration-300
                       after:absolute after:left-0 after:-bottom-2
                       after:w-0 after:h-[2px]
-                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      after:bg-gradient-to-r
+                      after:from-purple-500 after:to-cyan-400
                       hover:after:w-full
                       after:transition-all after:duration-300">
                 Home
@@ -52,7 +54,8 @@
                       transition duration-300
                       after:absolute after:left-0 after:-bottom-2
                       after:w-0 after:h-[2px]
-                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      after:bg-gradient-to-r
+                      after:from-purple-500 after:to-cyan-400
                       hover:after:w-full
                       after:transition-all after:duration-300">
                 About
@@ -66,7 +69,8 @@
                       transition duration-300
                       after:absolute after:left-0 after:-bottom-2
                       after:w-0 after:h-[2px]
-                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      after:bg-gradient-to-r
+                      after:from-purple-500 after:to-cyan-400
                       hover:after:w-full
                       after:transition-all after:duration-300">
                 Skills
@@ -80,7 +84,8 @@
                       transition duration-300
                       after:absolute after:left-0 after:-bottom-2
                       after:w-0 after:h-[2px]
-                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      after:bg-gradient-to-r
+                      after:from-purple-500 after:to-cyan-400
                       hover:after:w-full
                       after:transition-all after:duration-300">
                 Projects
@@ -94,14 +99,15 @@
                       transition duration-300
                       after:absolute after:left-0 after:-bottom-2
                       after:w-0 after:h-[2px]
-                      after:bg-gradient-to-r after:from-purple-500 after:to-cyan-400
+                      after:bg-gradient-to-r
+                      after:from-purple-500 after:to-cyan-400
                       hover:after:w-full
                       after:transition-all after:duration-300">
                 Contact
             </a>
 
 
-            <!-- Hire Me Button -->
+            <!-- Hire Me -->
             <a href="#contact"
                class="ml-3 px-6 py-3 rounded-full
                       bg-gradient-to-r from-purple-600 to-cyan-500
@@ -114,9 +120,29 @@
                 Hire Me
             </a>
 
+
+            <!-- Theme Toggle -->
+            <button
+                id="themeBtn"
+                type="button"
+                class="w-11 h-11 rounded-full
+                       border border-white/10
+                       bg-white/5
+                       text-gray-300
+                       hover:text-purple-400
+                       hover:border-purple-500
+                       transition duration-300">
+
+                <i class="fa-solid fa-sun"></i>
+
+            </button>
+
         </div>
+
+
         <!-- Mobile Menu Button -->
         <button
+            type="button"
             class="md:hidden text-2xl text-gray-300
                    hover:text-purple-400
                    transition duration-300">
@@ -126,10 +152,11 @@
         </button>
 
     </div>
+
 </nav>
 <!-- Hero section -->
 <section id="home"
-    class="min-h-screen bg-[#0B0B0F] flex items-center
+    class="min-h-screen  flex items-center
            pt-28 px-6 lg:px-8">
     <div class="max-w-7xl mx-auto w-full
                 grid grid-cols-1 md:grid-cols-2
@@ -231,7 +258,7 @@
                            rounded-full overflow-hidden
                            border-4 border-white/10">
                     <img
-                        src="./public/noreen.jpeg"
+                        src="./public/ChatGPT Image Sep 2, 2026, 09_36_47 PM.png"
                         alt="Noreen Profile"
                         class="w-full h-full object-cover">
 
@@ -242,7 +269,7 @@
     </div>
 </section>
 <!-- About ME -->
-<section id="about" class="py-24 px-6 lg:px-8 bg-[#0F0F14]">
+<section id="about" class="py-24 px-6 lg:px-8">
 
     <div class="max-w-7xl mx-auto">
 
@@ -385,7 +412,7 @@
 
 </section>
 <!-- skills -->
-<section id="skills" class="py-24 px-6 bg-[#0F0F14]">
+<section id="skills" class="py-24 px-6">
 
     <div class="max-w-6xl mx-auto">
 
@@ -465,7 +492,7 @@
 </section>
 <!-- //projects  -->
 <!-- PROJECTS SECTION -->
-<section id="projects" class="py-24 px-6 bg-[#0B0B0F]">
+<section id="projects" class="py-24 px-6">
 
     <div class="max-w-6xl mx-auto">
 
@@ -513,21 +540,15 @@
                                 flex items-center justify-center
                                 transition duration-500">
 
-                        <a href="#"
+                        <a href="https://buffer-website-clone-three.vercel.app/"
                            class="w-12 h-12 rounded-full
-                                  bg-purple-600
+                                  bg-purple-600 
                                   flex items-center justify-center
                                   hover:scale-110 transition">
-
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
                         </a>
-
                     </div>
-
                 </div>
-
-
                 <!-- Content -->
                 <div class="p-6">
 
@@ -559,7 +580,7 @@
                     <!-- Links -->
                     <div class="flex gap-5 mt-6">
 
-                        <a href="https://vercel.com/noreen2"
+                        <a href="https://buffer-website-clone-three.vercel.app/"
                            class="text-gray-300
                                   hover:text-purple-400
                                   transition">
@@ -567,7 +588,7 @@
                             Live Demo
                         </a>
 
-                        <a href="https://github.com/azmatnoreen87-cpu"
+                        <a href="https://github.com/azmatnoreen87-cpu/buffer-website-clone"
                            class="text-gray-300
                                   hover:text-cyan-400
                                   transition">
@@ -601,7 +622,7 @@
                                 flex items-center justify-center
                                 transition duration-500">
 
-                        <a href="#"
+                        <a href="https://saphora-side-bar.vercel.app/"
                            class="w-12 h-12 rounded-full
                                   bg-cyan-500
                                   flex items-center justify-center
@@ -644,28 +665,21 @@
                     </div>
 
                     <div class="flex gap-5 mt-6">
-
-                        <a href="https://vercel.com/noreen21"
+                        <a href="https://saphora-side-bar.vercel.app/"
                            class="text-gray-300
                                   hover:text-purple-400 transition">
                             <i class="fa-solid fa-link mr-2"></i>
                             Live Demo
                         </a>
-
-                        <a href="https://github.com/azmatnoreen87-cpu"
+                        <a href="https://github.com/azmatnoreen87-cpu/saphora-side-bar"
                            class="text-gray-300
                                   hover:text-cyan-400 transition">
                             <i class="fa-brands fa-github mr-2"></i>
                             GitHub
                         </a>
-
                     </div>
-
                 </div>
-
             </div>
-
-
             <!-- PROJECT 3 -->
             <div class="group bg-white/5 border border-white/10
                         rounded-3xl overflow-hidden
@@ -686,7 +700,7 @@
                                 flex items-center justify-center
                                 transition duration-500">
 
-                        <a href="#"
+                        <a href="https://shopping-cards-cyan.vercel.app/"
                            class="w-12 h-12 rounded-full
                                   bg-purple-600
                                   flex items-center justify-center
@@ -730,7 +744,7 @@
 
                     <div class="flex gap-5 mt-6">
 
-                        <a href="https://vercel.com/noreen21"
+                        <a href="https://shopping-cards-cyan.vercel.app/"
                            target="_blank"
                            class="text-gray-300
                                   hover:text-purple-400 transition">
@@ -738,7 +752,7 @@
                             Live Demo
                         </a>
 
-                        <a href="#"
+                        <a href="https://github.com/azmatnoreen87-cpu/shopping-cards"
                            class="text-gray-300
                                   hover:text-cyan-400 transition">
                             <i class="fa-brands fa-github mr-2"></i>
@@ -772,7 +786,7 @@
                                 flex items-center justify-center
                                 transition duration-500">
 
-                        <a href="#"
+                        <a href="https://cards-clone-phi.vercel.app/"
                            class="w-12 h-12 rounded-full
                                   bg-cyan-500
                                   flex items-center justify-center
@@ -816,14 +830,14 @@
 
                     <div class="flex gap-5 mt-6">
 
-                        <a href="https://vercel.com/noreen2"
+                        <a href="https://cards-clone-phi.vercel.app/"
                            class="text-gray-300
                                   hover:text-purple-400 transition">
                             <i class="fa-solid fa-link mr-2"></i>
                             Live Demo
                         </a>
 
-                        <a href="https://github.com/azmatnoreen87-cpu"
+                        <a href="https://github.com/azmatnoreen87-cpu/cards.clone"
                            class="text-gray-300
                                   hover:text-cyan-400 transition">
                             <i class="fa-brands fa-github mr-2"></i>
@@ -841,7 +855,7 @@
     </div>
 </section>
 <!-- CONTACT SECTION -->
-<section id="contact" class="py-24 px-6 bg-[#0F0F14]">
+<section id="contact" class="py-24 px-6">
 
     <div class="max-w-6xl mx-auto">
 
@@ -943,7 +957,7 @@
                 <!-- Social Icons -->
                 <div class="flex gap-4 mt-7">
 
-                    <a href="#"
+                    <a href="https://github.com/azmatnoreen87-cpu"
                        class="w-11 h-11 rounded-full
                               bg-white/5
                               border border-white/10
@@ -956,7 +970,7 @@
 
                     </a>
 
-                    <a href="#"
+                    <a href="https://www.linkedin.com/in/noreen-azmat-073786384/"
                        class="w-11 h-11 rounded-full
                               bg-white/5
                               border border-white/10
@@ -969,7 +983,7 @@
 
                     </a>
 
-                    <a href="#"
+                    <a href="https://www.instagram.com/no.reen1606/?hl=en"
                        class="w-11 h-11 rounded-full
                               bg-white/5
                               border border-white/10
@@ -977,18 +991,12 @@
                               hover:bg-cyan-500
                               hover:-translate-y-1
                               transition duration-300">
-
                         <i class="fa-brands fa-instagram"></i>
-
                     </a>
-
                 </div>
-
             </div>
-
-
             <!-- RIGHT FORM -->
-            <form class="bg-white/5 border border-white/10
+            <form class=" contact-form bg-white/5 border border-white/10
                          rounded-3xl p-7
                          hover:border-purple-500/30
                          transition duration-300">
@@ -1075,7 +1083,7 @@
 
 </section>
  <!-- FOOTER -->
-<footer class="bg-[#0B0B0F] border-t border-white/10 px-6 py-10">
+<footer class=" border-t border-white/10 px-6 py-10">
 
     <div class="max-w-6xl mx-auto">
 
@@ -1148,9 +1156,8 @@
         </div>
 
     </div>
-
 </footer>
-
+<script src="./src/scrpit.js"></script>
 </body>
 </html>
 
